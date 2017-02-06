@@ -1,1 +1,50 @@
-Placeholder
+body {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.card {
+	width: 30%;
+	border: 1px solid lightblue;
+	padding:;
+}
+
+.cardtitle {
+	border: 1px dotted lightgray;
+	text-align: center;
+	margin: 0;
+}
+
+.block {
+	display: block;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+
+.description {
+	text-align: justify;
+}
+
+.price, .size, .weight {
+	font-weight: bold;
+ }
+
+.availability {
+	background-color: darkgrey;
+	color: yellow;
+	font-size: 0.8em;
+	padding: 3px;
+}
+
+.price {
+	margin: 0 0 0 10px;
+	font-size: .8em;
+}
+
+.specsinvalid {
+	color: grey;
+	font-size: .6em;
+}

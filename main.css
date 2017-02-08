@@ -1,0 +1,80 @@
+body {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 20px;
+}
+
+.card {
+	width: 30%;
+	border: 1px solid lightblue;
+	margin: 5px;
+
+}
+
+.cardtitle {
+	border: 1px dotted lightgray;
+	text-align: center;
+	margin: 0;
+}
+
+.block {
+	display: block;
+	margin: 0;
+}
+
+div img {
+	display: block;
+	width: 100%;
+	height: 80%;
+	margin: auto;
+	padding: 0;
+}
+
+.description {
+	text-align: justify;
+	padding: 10px;
+}
+
+.price, .size, .weight {
+	font-weight: bold;
+
+ }
+
+.availability {
+	background-color: darkgrey;
+	color: yellow;
+	font-size: 0.8em;
+	padding: 3px;
+}
+
+.price, .size, .weight {
+	margin: 0 0 0 10px;
+	font-size: .8em;
+}
+
+.specsinvalid {
+	color: grey;
+	font-size: .6em;
+}
+
+.sec2header {
+	margin: 0;
+}
+
+.section2 {
+	padding: 10px 10px 0 10px;
+}
+
+.section3 {
+	padding: 0 10px 10px 10px;
+}
+
+.specsinvalid {
+	margin: 0;
+	padding: 0;
+}
+
+.cardcontainer {
+	display: flex;
+	flex-flow: row wrap;
+}
+
